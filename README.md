@@ -1,6 +1,6 @@
 # Atividade 01 - TypeScript
 
-Neste repositório estão reunidos 21 exercícios de lógica de programação desenvolvidos em TypeScript. As atividades fazem parte da disciplina de **Programação para Web**, oferecida no curso de **Engenharia de Software** da UPE. Propostas pelo professor Augusto César, essas atividades têm como objetivo reforçar o aprendizado prático dos conceitos básicos de programação utilizando TypeScript
+Neste repositório estão reunidos 21 exercícios de lógica de programação desenvolvidos em TypeScript. As atividades fazem parte da disciplina de **Programação para Web**, oferecida no curso de **Engenharia de Software** da UPE. Propostas pelo professor Augusto César, essas atividades têm como objetivo reforçar o aprendizado prático dos conceitos básicos de programação utilizando TypeScript.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -9,6 +9,8 @@ Neste repositório estão reunidos 21 exercícios de lógica de programação de
 - ts-node (para execução dos arquivos .ts)
 
 ## ⚙️ Como Executar o Projeto
+
+Antes de começar, é necessário ter o **Node.js** instalado em sua máquina. Caso ainda não tenha, você pode fazer o download e instalar a partir [deste link](https://nodejs.org/en/download/).
 
 1. Clone o repositório:
 
@@ -33,6 +35,7 @@ Neste repositório estão reunidos 21 exercícios de lógica de programação de
     ```bash
     npx ts-node questoes/nome-do-arquivo.ts
     ```
+
 Substitua `nome-do-arquivo.ts` pelo arquivo que deseja testar, como `questao01.ts`, `questao02.ts`, etc.
 
 > **Observação:** Se estiver usando VS Code, também é possível clicar com o botão direito sobre o arquivo `.ts` e selecionar **"Run Code"** (caso tenha a extensão _Code Runner_ instalada).
