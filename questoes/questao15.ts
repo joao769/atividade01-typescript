@@ -1,5 +1,5 @@
-function palavraMaisLonga(frase: string) {
-    const palavras = frase.split(' ');
+function palavraMaisLonga(str: string) {
+    const palavras = str.split(' ');
     return palavras.reduce((maior, atual) => atual.length > maior.length ? atual : maior);
 }
   

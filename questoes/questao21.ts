@@ -1,5 +1,5 @@
-function inverterString(texto: string) {
-    return texto.split('').reverse().join('');
+function inverterString(str: string) {
+    return str.split('').reverse().join('');
 }
 
 console.log(inverterString("hello"));

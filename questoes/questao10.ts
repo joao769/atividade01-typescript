@@ -1,6 +1,6 @@
-function calcularIdade(nascimento: number) {
+function calcularIdade(anoNascimento: number) {
     const anoAtual = new Date().getFullYear();
-    return anoAtual - nascimento;
+    return anoAtual - anoNascimento;
 }
   
 console.log(calcularIdade(2005));  
